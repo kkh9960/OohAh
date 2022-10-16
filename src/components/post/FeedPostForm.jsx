@@ -63,7 +63,7 @@ const FeedPostForm = () => {
         placeholder="개그를 입력해주세요. (30자 이내)"
         onChange={onChangeTitleHandler}
       />
-      <h2>개그 설명</h2>
+      <h2>아재개그 설명</h2>
       <PostText
         name="body"
         rows="6"
