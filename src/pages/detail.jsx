@@ -1,15 +1,9 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
+import React from "react";
 
-import FeedDetail from '../components/feedDetail/feedDetail';
 
-const Detail = () => {
-  const { id } = useParams();
-
+function Detail() {
   return (
-    <>
-      <FeedDetail id={id} />
-    </>
+      <h1>im Detail</h1>
   );
 };
 
